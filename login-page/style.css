@@ -1,0 +1,164 @@
+/** @format */
+
+body {
+  background: #f4f8fc;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.login-section {
+  padding-top: 11.125rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.login-text-container {
+  margin-left: 1.5625rem;
+  margin-bottom: 3.5rem;
+  font-weight: 700;
+}
+.welcome-text {
+  font-size: 2.25rem;
+  line-height: 1.059;
+  color: #022b69;
+  margin-bottom: 19px;
+}
+.continue-text {
+  font-size: 1.875rem;
+  line-height: 1.034;
+  color: #b2bed0;
+}
+.login-form-container {
+  width: 90.13%;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 2.44485px 4.88969px rgba(0, 0, 0, 0.04),
+    0px 0px 1.22242px rgba(0, 0, 0, 0.06),
+    0px 0px 0.611212px rgba(0, 0, 0, 0.04);
+  border-radius: 12.2242px 12.2242px 12.2242px 0px;
+  padding-top: 2.0625rem;
+  padding-bottom: 0.9375rem;
+}
+.login-header {
+  font-weight: 700;
+  font-size: 1.146rem;
+  line-height: 1.019;
+  color: #022b69;
+  text-align: center;
+  margin-bottom: 2.125rem;
+}
+.form-info {
+  width: 100%;
+  display: block;
+  border: none;
+  height: 2.5625rem;
+  background: #f4f8fc;
+  border-radius: 6.11212px;
+  padding-left: 5px;
+  outline: none;
+}
+label {
+  font-size: 0.6876rem;
+  line-height: 1;
+  color: #b2bed0;
+}
+.form-group {
+  width: 76.923%;
+  margin: 0 auto;
+}
+.form-group:first-of-type {
+  margin-bottom: 2.125rem;
+}
+.other-login-option {
+  display: flex;
+  justify-content: space-between;
+  width: 76.923%;
+  margin: 0.8025rem auto 0;
+  font-size: 0.6876rem;
+  line-height: 1;
+  color: #0066f5;
+}
+.submit-container {
+  width: 140px;
+  margin: 2.6875rem auto 0;
+  font-size: 0.9168rem;
+  line-height: 1;
+}
+.submit-button {
+  width: 100%;
+  color: #ffffff;
+  background: #022b69;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.6875rem;
+  outline: none;
+  border: none;
+  border-radius: 6.11212px 6.11212px 6.11212px 0px;
+}
+@media (min-width: 1100px) {
+  .login-section {
+    max-width: 1440px;
+  }
+
+  .login-wrapper {
+    display: flex;
+    margin-left: 6.875%;
+  }
+  .login-form-container {
+    max-width: 553px;
+    padding-top: 3.375rem;
+    padding-bottom:1.625rem;
+  }
+  .login-text-container {
+    margin: 0;
+  }
+  .company-logo {
+    margin-bottom: 4.125rem;
+  }
+  .welcome-text {
+    font-size: 3rem;
+    line-height: 1.043;
+    margin-bottom: 1.9375rem;
+  }
+  .continue-text {
+    font-size: 3rem;
+    line-height: 1.043;
+  }
+  .login-header {
+    font-size: 1.875rem;
+    line-height: 1.034;
+    margin-bottom: 3.5rem;
+  }
+  .small-font {
+    font-size: 1.125rem;
+    line-height: 1.059;
+  }
+  .form-group:first-of-type {
+    margin-bottom: 3.5rem;
+  }
+  .submit-container {
+    width: 14.25rem;
+    margin: 2.875rem auto 0;
+  }
+  .other-login-option {
+    font-size: 1.125rem;
+    line-height: 1.059;
+    color: #0066f5;
+    margin-top: 1.3125rem;
+  }
+  .submit-button {
+    font-size: 1.5rem;
+    line-height: 1.043;
+    padding-top: 25px;
+    padding-bottom: 19px;
+  }
+
+  .form-info {
+    height: 4.1875rem;
+    margin-top: 0.6875rem;
+  }
+}
